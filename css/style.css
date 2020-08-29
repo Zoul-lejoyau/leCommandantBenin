@@ -562,6 +562,10 @@ footer .d-flex+div input[type="submit"] {
     font-size: 16px;
 }
 
+footer #newletter {
+    background-color: #ea4808;
+}
+
 footer .copyright {
     padding: 20px 0;
     background-color: #074a74;
