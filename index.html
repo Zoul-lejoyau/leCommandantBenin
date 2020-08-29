@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -8,20 +9,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav></nav>
-        <div class="brand-logo">
-            <a href="#"><img src="imgs/logomax.jpg" alt="logo"></a>
+    <nav class="navbar navbar-expand-lg navbar-light text-uppercase font-weight-bold" id="navbarWeb">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img width="250" src="imgs/logo1.png" alt="#" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="show-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home"> Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"> Qui sommes-nous</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#company">Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item search">
+                        <a class="nav-link"><i class="fas fa-search" ></i>Recherche</a>
+                        <form>
+                            <input type="search">
+                        </form>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="brand-name">
-            <a href="#">
-                <h1>Le COMMANDANT Bénin</h1>
-            </a>
+    </nav>
+    <header class="text-uppercase" id="home">
+        <div class="row">
+            <div class="col-xl-5 col-lg-12">
+                <p>les meilleurs</p>
+                <button><a href="#" class="text-uppercase">Lisez-moi</a></button>
+            </div>
+            <div class="col-xl-7 col-lg-12">
+                <div class="white-overlay d-flex align-items-center">
+                    <button><a href="+22964610433" class="text-uppercase">contactez-noust</a></button>
+                </div>
+            </div>
         </div>
     </header>
+
 
 
     <script src="js/jquery-3.3.1.min.js"></script>
