@@ -284,6 +284,8 @@ header .row>div:last-of-type button a {
     background-color: #FFF;
     margin: 0 auto;
     border: 1px solid #000;
+    width: 150px;
+    height: 35px;
 }
 
 .services button a {
