@@ -554,20 +554,11 @@ footer .copyright p {
         margin-bottom: 40px;
     }
     .prices .item>div:first-of-type {
-        border-top-left-radius: 50px;
+        border-top-left-radius: 15px;
     }
     .prices .col-lg-4:nth-of-type(2) .active {
         position: static;
-        border-top-left-radius: 50px;
-    }
-    .prices .col-lg-4:nth-of-type(2) {
-        order: 1;
-    }
-    .prices .col-lg-4:first-of-type {
-        order: 2
-    }
-    .prices .col-lg-4:last-of-type {
-        order: 3;
+        border-top-left-radius: 15px;
     }
     /* contact */
     .contact .contact-form {
@@ -603,6 +594,9 @@ footer .copyright p {
         margin-bottom: 65px;
     }
     /* about us */
+    #imgsAbout {
+        margin-top: 50px;
+    }
     .about-us img {
         width: 70%;
     }
