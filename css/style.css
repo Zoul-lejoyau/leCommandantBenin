@@ -734,13 +734,6 @@ footer .copyright p {
         width: 100%;
     }
     header .row>div:first-of-type p {
-        font-size: 1.5em;
-    }
-    /* contact */
-    #contcter1 {
-        box-sizing: border-box;
-        width: 100%;
-        margin: 3px;
         font-size: 1.2em;
     }
     /* footer */
