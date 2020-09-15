@@ -739,7 +739,7 @@ footer .copyright p {
     /* contact */
     #contcter1 {
         box-sizing: border-box;
-        width: 75%;
+        width: 100%;
         margin: 3px;
         font-size: 1.2em;
     }
