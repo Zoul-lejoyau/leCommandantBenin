@@ -732,10 +732,17 @@ footer .copyright p {
         background-size: cover;
         height: 350px;
         width: 100%;
+        margin: 2px;
+        padding: 3px;
+    }
+    header .row>div:first-of-type p {
+        font-size: 1.5em;
     }
     /* contact */
-    .contact .contact-form {
+    .white-overlay button {
         width: 100%;
+        margin: 2px;
+        padding: 3px;
     }
     /* footer */
     footer .d-flex+div form,
